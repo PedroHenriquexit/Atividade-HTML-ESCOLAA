@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.flashcard {
+  width: 350px;
+  min-height: 250px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.pergunta {
+  margin-bottom: 30px;
+}
+
+.pergunta h1 {
+  font-size: 24px;
+  color: #222;
+}
+
+.resposta p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
